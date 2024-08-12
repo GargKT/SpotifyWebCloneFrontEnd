@@ -12,50 +12,50 @@ const playTypeSelect = document.getElementById('playType');
 
 let songs = [
     {
-    songName: "meow-meow",
+    songName: "Song 1",
         coverPath: "covers/1.jpg",
             filePath: "music/1.mp3"
 },
 {
-    songName: "meow-2",
+    songName: "Song 2",
         coverPath: "covers/2.jpg",
             filePath: "music/2.mpeg"
 },
 {
-    songName: "meow-3",
+    songName: "Song 3",
         coverPath: "covers/3.jpg",
             filePath: "music/3.mpeg"
 },
 {
-    songName: "meow-4",
+    songName: "Song 4",
         coverPath: "covers/4.jpg",
             filePath: "music/4.mpeg"
 },
 {
-    songName: "meow-5",
+    songName: "Song 5",
         coverPath: "covers/5.jpg",
             filePath: "music/5.mpeg"
 },
 {
-    songName: "meow-6",
+    songName: "Song 6",
         coverPath: "covers/6.jpg",
             filePath: "music/6.mpeg"
 },
 {
-    songName: "meow-7",
+    songName: "Song 7",
         coverPath: "covers/7.jpg",
             filePath: "music/7.mpeg"
 },
 {
-    songName: "meow-8",
+    songName: "Song 8",
         coverPath: "covers/8.jpg",
             filePath: "music/8.mpeg"
 },
-{   songName: "meow-9",
+{   songName: "Song 9",
     coverPath: "covers/9.jpg",
     filePath: "music/9.mpeg"
 },
-{   songName: "meow-meow-meow",
+{   songName: "Song 10",
     coverPath: "covers/10.jpg",
     filePath: "music/10.mpeg"
 }
