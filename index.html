@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- Your favourite music is here!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                <!--
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Let me Love you</span>
+                    <div class="songListPlay"><span class="timestamp">05:34 <i class="fa-regular fa-circle-play"></i></span></div>--> 
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" srcset="" id="gif">
+            <span class="songBelowName"></span>
+            
+        </div>
+
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fa-3x fa-solid fa-backward" id="masterBackPlay"></i>
+            <i class="fa-3x fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="fa-3x fa-solid fa-forward" id="masterForwardPlay"></i>
+        </div>
+        
+        <div class="selectMode">
+            <label for="playType"> Choose Type: </label>
+            <select name="type" id="playType">
+                <option value="normal">Normal</option>
+                <option value="repeat">Repeat</option>
+                <option value="random">Random</option>
+            </select>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
